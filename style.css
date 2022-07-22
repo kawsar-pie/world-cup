@@ -1,0 +1,63 @@
+/* header area styles */
+.header-area {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 80%;
+    background-color: #161616;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.header-info {
+    width: 50%;
+    padding-top: 110px;
+    padding-left: 105px;
+    padding-bottom: 110px;
+    margin-bottom: 20px;
+}
+
+.header-info h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 80px;
+}
+
+.header-info p {
+    font-size: 1.2em;
+}
+
+.watch-live a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.fa-chevron-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.header-image {
+    width: 50%;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
